@@ -1,0 +1,19 @@
+-- import: fastn-community.github.io/certificate as champion
+
+-- ds.page: fastn Champion
+full-width: true
+logo-width: 100
+
+-- ftd.column:
+width: fill-container
+align-content: center
+
+-- ds.h2: Sreejita Dutta
+
+-- champion.certificate-2: Sreejita Dutta
+date: 6th October 2023
+avatar: $assets.files.assets.avatar.sree.png
+
+-- end: ftd.column
+
+-- end: ds.page

@@ -1,0 +1,19 @@
+-- import: fastn-community.github.io/certificate as champion
+
+-- ds.page: fastn Champion
+full-width: true
+logo-width: 100
+
+-- ftd.column:
+width: fill-container
+align-content: center
+
+-- ds.h2: Jahanvi
+
+-- champion.certificate-2: Jahanvi
+date: 6th October 2023
+/avatar: $assets.files.assets.avatar.jahanvi.png
+
+-- end: ftd.column
+
+-- end: ds.page

@@ -1,0 +1,19 @@
+-- import: fastn-community.github.io/certificate as champion
+
+-- ds.page: fastn Champion
+full-width: true
+logo-width: 100
+
+-- ftd.column:
+width: fill-container
+align-content: center
+
+-- ds.h2: Sayak
+
+-- champion.certificate-2: Sayak
+date: 6th October 2023
+avatar: $assets.files.assets.avatar.sayak.png
+
+-- end: ftd.column
+
+-- end: ds.page
