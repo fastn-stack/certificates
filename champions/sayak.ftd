@@ -12,7 +12,7 @@ align-content: center
 
 -- champion.certificate-2: Sayak
 date: 6th October 2023
-avatar: $assets.files.assets.avatar.sayak.png
+avatar: $assets.files.assets.avatar.sayak.jpeg
 
 -- end: ftd.column
 
