@@ -1,40 +1,57 @@
--- ds.page: Welcome to doc-site
+-- import: fastn-community.github.io/certificate as champion
 
+-- ds.page: Awarded fastn Certificates
+full-width: true
+logo-width: 100
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+Below is a list of certificates awarded to all fastn champions and ambassadors.
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- ftd.column:
+width: fill-container
+align-content: center
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- ds.h1: fastn Champions
 
--- ds.h3: 🚀 Fast Track 
+-- ds.h2: Rutuja Kapate
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
+-- champion.certificate-2: Rutuja Kapate
+date: 6th October 2023
+avatar: $assets.files.assets.avatar.rutuja.jpeg
 
--- ds.h3: 🌟 Whats next?
+-- ds.h2: Sreejita Dutta
 
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
+-- champion.certificate-2: Sreejita Dutta
+date: 6th October 2023
+avatar: $assets.files.assets.avatar.sree.png
 
--- ds.h3: 👀 Want to learn more?
+-- ds.h2: Krish Gupta
 
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- champion.certificate-2: Krish Gupta
+date: 6th October 2023
+avatar: $assets.files.assets.avatar.krish.png
 
+-- ds.h2: Sayak
 
--- ds.h3: 🎯 Used by?
+-- champion.certificate-2: Sayak
+date: 6th October 2023
+avatar: $assets.files.assets.avatar.sayak.png
 
-Our all documentation sites uses this `doc-site` theme.
+-- ds.h2: Jahanvi
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- champion.certificate-2: Jahanvi
+date: 6th October 2023
+/avatar: $assets.files.assets.avatar.jahanvi.png
 
--- ds.h2: Learn fastn and become a pro?
+-- ds.h2: Govindaraman
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- champion.certificate-2: Govindaraman
+date: 6th October 2023
+avatar: $assets.files.assets.avatar.govindaraman.jpg
+
+-- ds.h1: fastn Ambassadors
+
+-- ds.h2: No certificates yet
+
+-- end: ftd.column
 
 -- end: ds.page
