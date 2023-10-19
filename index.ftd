@@ -10,49 +10,39 @@ width: fill-container
 
 -- ds.h1: fastn Champions
 
--- ds.h2: Rutuja Kapate
+-- ds.h3: [Rutuja Kapate](champions/rutuja-kapate/)
 
--- champion.certificate-2: Rutuja Kapate
-date: 6th October 2023
-avatar: $assets.files.assets.avatar.rutuja.jpeg
+-- ds.h3: [Sreejita Dutta](champions/sreejita-dutta/)
 
--- ds.h2: Sreejita Dutta
+-- ds.h3: [Adarsh](champions/adarsh/)
 
--- champion.certificate-2: Sreejita Dutta
-date: 6th October 2023
-avatar: $assets.files.assets.avatar.sree.png
+-- ds.h3: [Sayak Saha](champions/sayak-saha/)
 
--- ds.h2: Krish Gupta
+-- ds.h3: [Krish Gupta](champions/krish-gupta/)
 
--- champion.certificate-2: Krish Gupta
-date: 6th October 2023
-avatar: $assets.files.assets.avatar.krish.png
+-- ds.h3: [Jahanvi Raycha](champions/jahanvi-raycha/)
 
--- ds.h2: Sayak
+-- ds.h3: [Shantnu Fartode](champions/shantnu-fartode/)
 
--- champion.certificate-2: Sayak
-date: 6th October 2023
-avatar: $assets.files.assets.avatar.sayak.jpeg
+-- ds.h3: [Atharva](champions/atharva/)
 
--- ds.h2: Jahanvi
+-- ds.h3: [Ayush Soni](champions/ayush-soni/)
 
--- champion.certificate-2: Jahanvi
-date: 6th October 2023
-/avatar: $assets.files.assets.avatar.jahanvi.png
-
--- ds.h2: Govindaraman
-
--- champion.certificate-2: Govindaraman
-date: 6th October 2023
-avatar: $assets.files.assets.avatar.govindaraman.jpg
+-- ds.h3: [Govindaraman](champions/govindaraman/)
 
 -- ds.h1: fastn Ambassadors
 
--- ds.h2: Rutuja Kapate
+-- ds.h3: [Rutuja Kapate](ambassadors/rutuja-kapate/)
 
--- ambassador.certificate-2: Rutuja Kapate
-date: 6th October 2023
-avatar: $assets.files.assets.avatar.rutuja.jpeg
+-- ds.h3: [Krish Gupta](ambassadors/krish-gupta/)
+
+-- ds.h3: [Ajit garg](ambassadors/ajit-garg/)
+
+-- ds.h3: [Ayush Soni](ambassadors/ayush-soni/)
+
+-- ds.h3: [Nishant](ambassadors/nishant/)
+
+-- ds.h3: [Govindaraman](ambassadors/govindaraman/)
 
 -- end: ftd.column
 
