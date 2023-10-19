@@ -1,5 +1,5 @@
--- import: fastn-community.github.io/certificate as champion
--- import: fastn-community.github.io/ambassador-certificate as ambassador
+-- import: fastn-stack.github.io/certificate as champion
+-- import: fastn-stack.github.io/ambassador-certificate as ambassador
 
 -- ds.page: Awarded fastn Certificates
 
@@ -14,7 +14,7 @@ width: fill-container
 
 -- ds.h3: [Sreejita Dutta](champions/sreejita-dutta/)
 
--- ds.h3: [Adarsh](champions/adarsh/)
+-- ds.h3: [Adarsh Gupta](champions/adarsh-gupta/)
 
 -- ds.h3: [Sayak Saha](champions/sayak-saha/)
 
