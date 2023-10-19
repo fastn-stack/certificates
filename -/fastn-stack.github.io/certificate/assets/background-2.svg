@@ -26,15 +26,15 @@
             <circle cx="1013.02" cy="44.3315" r="6.84775" fill="#EF8435"/>
         </g>
         <g clip-path="url(#clip3_2_144)">
-            <circle cx="1149.98" cy="44.3315" r="6.65753" stroke="white" stroke-width="0.380431"/>
+            <circle cx="1149.98" cy="44.3315" r="6.65753" stroke="black" stroke-width="0.380431"/>
         </g>
         <g clip-path="url(#clip4_2_144)">
-            <circle cx="985.632" cy="44.3315" r="6.65753" stroke="white" stroke-width="0.380431"/>
+            <circle cx="985.632" cy="44.3315" r="6.65753" stroke="black" stroke-width="0.380431"/>
         </g>
         <g clip-path="url(#clip5_2_144)">
-            <path d="M1198.37 50.3233L1205.12 38.6251L1211.87 50.3233H1198.37Z" stroke="white" stroke-width="0.380431"/>
+            <path d="M1198.37 50.3233L1205.12 38.6251L1211.87 50.3233H1198.37Z" stroke="black" stroke-width="0.380431"/>
         </g>
-        <path d="M1034.02 50.3233L1040.77 38.6251L1047.53 50.3233H1034.02Z" stroke="white" stroke-width="0.380431"/>
+        <path d="M1034.02 50.3233L1040.77 38.6251L1047.53 50.3233H1034.02Z" stroke="black" stroke-width="0.380431"/>
         <g clip-path="url(#clip6_2_144)">
             <path d="M1232.51 38.2446L1239.59 50.5135H1225.43L1232.51 38.2446Z" fill="#4AA35C"/>
         </g>
@@ -48,16 +48,16 @@
             <path d="M958.241 36.7229C956.223 36.7229 954.288 37.5245 952.861 38.9514C951.434 40.3783 950.633 42.3136 950.633 44.3315C950.633 46.3494 951.434 48.2847 952.861 49.7116C954.288 51.1385 956.223 51.9401 958.241 51.9401L958.241 44.3315L958.241 36.7229Z" fill="#EBBE52"/>
         </g>
         <g clip-path="url(#clip10_2_144)">
-            <mask id="path-20-inside-1_2_144" fill="white">
+            <mask id="path-20-inside-1_2_144" fill="black">
                 <path d="M1259.54 36.7229C1257.52 36.7229 1255.59 37.5245 1254.16 38.9514C1252.74 40.3783 1251.93 42.3136 1251.93 44.3315C1251.93 46.3494 1252.74 48.2847 1254.16 49.7116C1255.59 51.1385 1257.52 51.9401 1259.54 51.9401L1259.54 44.3315L1259.54 36.7229Z"/>
             </mask>
-            <path d="M1259.54 36.7229C1257.52 36.7229 1255.59 37.5245 1254.16 38.9514C1252.74 40.3783 1251.93 42.3136 1251.93 44.3315C1251.93 46.3494 1252.74 48.2847 1254.16 49.7116C1255.59 51.1385 1257.52 51.9401 1259.54 51.9401L1259.54 44.3315L1259.54 36.7229Z" stroke="white" stroke-width="0.760861" mask="url(#path-20-inside-1_2_144)"/>
+            <path d="M1259.54 36.7229C1257.52 36.7229 1255.59 37.5245 1254.16 38.9514C1252.74 40.3783 1251.93 42.3136 1251.93 44.3315C1251.93 46.3494 1252.74 48.2847 1254.16 49.7116C1255.59 51.1385 1257.52 51.9401 1259.54 51.9401L1259.54 44.3315L1259.54 36.7229Z" stroke="black" stroke-width="0.760861" mask="url(#path-20-inside-1_2_144)"/>
         </g>
         <g clip-path="url(#clip11_2_144)">
-            <mask id="path-21-inside-2_2_144" fill="white">
+            <mask id="path-21-inside-2_2_144" fill="black">
                 <path d="M1095.19 36.7229C1093.18 36.7229 1091.24 37.5245 1089.81 38.9514C1088.39 40.3783 1087.59 42.3136 1087.59 44.3315C1087.59 46.3494 1088.39 48.2847 1089.81 49.7116C1091.24 51.1385 1093.18 51.9401 1095.19 51.9401L1095.19 44.3315L1095.19 36.7229Z"/>
             </mask>
-            <path d="M1095.19 36.7229C1093.18 36.7229 1091.24 37.5245 1089.81 38.9514C1088.39 40.3783 1087.59 42.3136 1087.59 44.3315C1087.59 46.3494 1088.39 48.2847 1089.81 49.7116C1091.24 51.1385 1093.18 51.9401 1095.19 51.9401L1095.19 44.3315L1095.19 36.7229Z" stroke="white" stroke-width="0.760861" mask="url(#path-21-inside-2_2_144)"/>
+            <path d="M1095.19 36.7229C1093.18 36.7229 1091.24 37.5245 1089.81 38.9514C1088.39 40.3783 1087.59 42.3136 1087.59 44.3315C1087.59 46.3494 1088.39 48.2847 1089.81 49.7116C1091.24 51.1385 1093.18 51.9401 1095.19 51.9401L1095.19 44.3315L1095.19 36.7229Z" stroke="black" stroke-width="0.760861" mask="url(#path-21-inside-2_2_144)"/>
         </g>
         <path d="M877.004 101.244L880.293 110.604L889.654 113.893H877.004V101.244Z" fill="#EF8435"/>
         <path d="M877.004 101.244L873.716 110.604L864.355 113.893H877.004V101.244Z" fill="#EF8435"/>
@@ -71,40 +71,40 @@
     </g>
     <defs>
         <clipPath id="clip0_2_144">
-            <rect width="1318" height="816" fill="white"/>
+            <rect width="1318" height="816" fill="black"/>
         </clipPath>
         <clipPath id="clip1_2_144">
-            <rect width="15.2172" height="15.2172" fill="white" transform="translate(1169.76 36.7229)"/>
+            <rect width="15.2172" height="15.2172" fill="black" transform="translate(1169.76 36.7229)"/>
         </clipPath>
         <clipPath id="clip2_2_144">
-            <rect width="15.2172" height="15.2172" fill="white" transform="translate(1005.41 36.7229)"/>
+            <rect width="15.2172" height="15.2172" fill="black" transform="translate(1005.41 36.7229)"/>
         </clipPath>
         <clipPath id="clip3_2_144">
-            <rect width="15.2172" height="15.2172" fill="white" transform="translate(1142.37 36.7229)"/>
+            <rect width="15.2172" height="15.2172" fill="black" transform="translate(1142.37 36.7229)"/>
         </clipPath>
         <clipPath id="clip4_2_144">
-            <rect width="15.2172" height="15.2172" fill="white" transform="translate(978.023 36.7229)"/>
+            <rect width="15.2172" height="15.2172" fill="black" transform="translate(978.023 36.7229)"/>
         </clipPath>
         <clipPath id="clip5_2_144">
-            <rect width="15.2172" height="15.2172" fill="white" transform="translate(1197.15 36.7229)"/>
+            <rect width="15.2172" height="15.2172" fill="black" transform="translate(1197.15 36.7229)"/>
         </clipPath>
         <clipPath id="clip6_2_144">
-            <rect width="15.2172" height="15.2172" fill="white" transform="translate(1224.54 36.7229)"/>
+            <rect width="15.2172" height="15.2172" fill="black" transform="translate(1224.54 36.7229)"/>
         </clipPath>
         <clipPath id="clip7_2_144">
-            <rect width="15.2172" height="15.2172" fill="white" transform="translate(1060.2 36.7229)"/>
+            <rect width="15.2172" height="15.2172" fill="black" transform="translate(1060.2 36.7229)"/>
         </clipPath>
         <clipPath id="clip8_2_144">
-            <rect width="15.2172" height="15.2172" fill="white" transform="translate(1114.98 36.7229)"/>
+            <rect width="15.2172" height="15.2172" fill="black" transform="translate(1114.98 36.7229)"/>
         </clipPath>
         <clipPath id="clip9_2_144">
-            <rect width="15.2172" height="15.2172" fill="white" transform="translate(950.633 36.7229)"/>
+            <rect width="15.2172" height="15.2172" fill="black" transform="translate(950.633 36.7229)"/>
         </clipPath>
         <clipPath id="clip10_2_144">
-            <rect width="15.2172" height="15.2172" fill="white" transform="translate(1251.93 36.7229)"/>
+            <rect width="15.2172" height="15.2172" fill="black" transform="translate(1251.93 36.7229)"/>
         </clipPath>
         <clipPath id="clip11_2_144">
-            <rect width="15.2172" height="15.2172" fill="white" transform="translate(1087.59 36.7229)"/>
+            <rect width="15.2172" height="15.2172" fill="black" transform="translate(1087.59 36.7229)"/>
         </clipPath>
     </defs>
 </svg>

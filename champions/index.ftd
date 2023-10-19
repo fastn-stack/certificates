@@ -1,27 +1,40 @@
+-- import: fastn-stack.github.io/fastn-certificate
+exposing: cert-label
+
 -- ds.page: fastn Champions
 
 Below are the candidates who have been awarded fastn Champion title after
 completion of Champion programme challenges.
 
--- ds.h3: [Rutuja Kapate](champions/rutuja-kapate/)
+-- cert-label: Rutuja Kapate
+cert-link: champions/rutuja-kapate/
 
--- ds.h3: [Sreejita Dutta](champions/sreejita-dutta/)
+-- cert-label: Sreejita Dutta
+cert-link: champions/sreejita-dutta/
 
--- ds.h3: [Adarsh Gupta](champions/adarsh-gupta/)
+-- cert-label: Adarsh Gupta
+cert-link: champions/adarsh-gupta/
 
--- ds.h3: [Sayak Saha](champions/sayak-saha/)
+-- cert-label: Sayak Saha
+cert-link: champions/sayak-saha/
 
--- ds.h3: [Krish Gupta](champions/krish-gupta/)
+-- cert-label: Krish Gupta
+cert-link: champions/krish-gupta/
 
--- ds.h3: [Jahanvi Raycha](champions/jahanvi-raycha/)
+-- cert-label: Jahanvi Raycha
+cert-link: champions/jahanvi-raycha/
 
--- ds.h3: [Shantnu Fartode](champions/shantnu-fartode/)
+-- cert-label: Shantnu Fartode
+cert-link: champions/shantnu-fartode/
 
--- ds.h3: [Atharva](champions/atharva/)
+-- cert-label: Atharva
+cert-link: champions/atharva/
 
--- ds.h3: [Ayush Soni](champions/ayush-soni/)
+-- cert-label: Ayush Soni
+cert-link: champions/ayush-soni/
 
--- ds.h3: [Govindaraman](champions/govindaraman/)
+-- cert-label: Govindaraman
+cert-link: champions/govindaraman/
 
 -- end: ds.page
 
