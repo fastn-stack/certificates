@@ -1,8 +1,6 @@
 -- import: fastn-community.github.io/certificate as champion
 
 -- ds.page: Champion Certification
-full-width: true
-logo-width: 100
 
 -- ftd.column:
 width: fill-container

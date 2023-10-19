@@ -5,9 +5,9 @@
 -- ftd.column:
 width: fill-container
 
--- ambassador.certificate-2: Rutuja Kapate
+-- ambassador.certificate-2: Ayush Soni
 date: 6th October 2023
-avatar: $assets.files.assets.avatar.rutuja.jpeg
+avatar: $assets.files.assets.avatar.ayush-soni.jpg
 
 -- end: ftd.column
 

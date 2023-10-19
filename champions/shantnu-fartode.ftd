@@ -1,15 +1,13 @@
 -- import: fastn-community.github.io/certificate as champion
 
 -- ds.page: Champion Certification
-full-width: true
-logo-width: 100
 
 -- ftd.column:
 width: fill-container
 
--- champion.certificate-2: Jahanvi
+-- champion.certificate-2: Shantnu Fartode
 date: 6th October 2023
-/avatar: $assets.files.assets.avatar.jahanvi.png
+/avatar: $assets.files.assets.avatar.shantnu-fartode.png
 
 -- end: ftd.column
 

@@ -5,9 +5,9 @@
 -- ftd.column:
 width: fill-container
 
--- champion.certificate-2: Krish Gupta
+-- champion.certificate-2: Atharva
 date: 6th October 2023
-avatar: $assets.files.assets.avatar.krish.png
+/avatar: $assets.files.assets.avatar.atharva.png
 
 -- end: ftd.column
 
