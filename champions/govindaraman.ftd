@@ -1,14 +1,11 @@
 -- import: fastn-community.github.io/certificate as champion
 
--- ds.page: fastn Champion
+-- ds.page: Champion Certification
 full-width: true
 logo-width: 100
 
 -- ftd.column:
 width: fill-container
-align-content: center
-
--- ds.h2: Govindaraman
 
 -- champion.certificate-2: Govindaraman
 date: 6th October 2023

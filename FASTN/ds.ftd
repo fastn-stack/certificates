@@ -20,12 +20,12 @@ optional string site-name: Certificates
 optional ftd.image-src site-logo: $site-logo
 boolean github-icon: false
 optional string github-url: 
-boolean full-width: false
+boolean full-width: true
 ftd.type-data typography: $typo.types
 ftd.color-scheme color-scheme: $cs.main
-integer logo-width: $common.logo-width
+integer logo-width: 100
 integer logo-height: $common.logo-height
-boolean show-footer: true
+boolean show-footer: false
 boolean show-banner: true
 ftd.ui list right-sidebar:
 ftd.ui list banner:

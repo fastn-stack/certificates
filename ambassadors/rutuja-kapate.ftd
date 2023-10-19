@@ -1,13 +1,13 @@
--- import: fastn-community.github.io/certificate as champion
+-- import: fastn-community.github.io/ambassador-certificate as ambassador
 
--- ds.page: Champion Certification
+-- ds.page: Ambassador Certification
 full-width: true
 logo-width: 100
 
 -- ftd.column:
 width: fill-container
 
--- champion.certificate-2: Rutuja Kapate
+-- ambassador.certificate-2: Rutuja Kapate
 date: 6th October 2023
 avatar: $assets.files.assets.avatar.rutuja.jpeg
 
