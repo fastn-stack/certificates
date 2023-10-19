@@ -1,6 +1,3 @@
--- import: fastn-stack.github.io/certificate as champion
--- import: fastn-stack.github.io/ambassador-certificate as ambassador
-
 -- ds.page: Awarded fastn Certificates
 
 Below is a list of certificates awarded to all fastn champions and ambassadors.
@@ -10,40 +7,89 @@ width: fill-container
 
 -- ds.h1: fastn Champions
 
--- ds.h3: [Rutuja Kapate](champions/rutuja-kapate/)
+-- cert-label: Rutuja Kapate
+cert-link: champions/rutuja-kapate/
 
--- ds.h3: [Sreejita Dutta](champions/sreejita-dutta/)
+-- cert-label: Sreejita Dutta
+cert-link: champions/sreejita-dutta/
 
--- ds.h3: [Adarsh Gupta](champions/adarsh-gupta/)
+-- cert-label: Adarsh Gupta
+cert-link: champions/adarsh-gupta/
 
--- ds.h3: [Sayak Saha](champions/sayak-saha/)
+-- cert-label: Sayak Saha
+cert-link: champions/sayak-saha/
 
--- ds.h3: [Krish Gupta](champions/krish-gupta/)
+-- cert-label: Krish Gupta
+cert-link: champions/krish-gupta/
 
--- ds.h3: [Jahanvi Raycha](champions/jahanvi-raycha/)
+-- cert-label: Jahanvi Raycha
+cert-link: champions/jahanvi-raycha/
 
--- ds.h3: [Shantnu Fartode](champions/shantnu-fartode/)
+-- cert-label: Shantnu Fartode
+cert-link: champions/shantnu-fartode/
 
--- ds.h3: [Atharva](champions/atharva/)
+-- cert-label: Atharva
+cert-link: champions/atharva/
 
--- ds.h3: [Ayush Soni](champions/ayush-soni/)
+-- cert-label: Ayush Soni
+cert-link: champions/ayush-soni/
 
--- ds.h3: [Govindaraman](champions/govindaraman/)
+-- cert-label: Govindaraman
+cert-link: champions/govindaraman/
 
 -- ds.h1: fastn Ambassadors
 
--- ds.h3: [Rutuja Kapate](ambassadors/rutuja-kapate/)
+-- cert-label: Rutuja Kapate
+cert-link: ambassadors/rutuja-kapate/
 
--- ds.h3: [Krish Gupta](ambassadors/krish-gupta/)
+-- cert-label: Krish Gupta
+cert-link: ambassadors/krish-gupta/
 
--- ds.h3: [Ajit garg](ambassadors/ajit-garg/)
+-- cert-label: Ajit garg
+cert-link: ambassadors/ajit-garg/
 
--- ds.h3: [Ayush Soni](ambassadors/ayush-soni/)
+-- cert-label: Ayush Soni
+cert-link: ambassadors/ayush-soni/
 
--- ds.h3: [Nishant](ambassadors/nishant/)
+-- cert-label: Nishant
+cert-link: ambassadors/nishant/
 
--- ds.h3: [Govindaraman](ambassadors/govindaraman/)
+-- cert-label: Govindaraman
+cert-link: ambassadors/govindaraman/
 
 -- end: ftd.column
 
 -- end: ds.page
+
+
+
+
+-- component cert-label:
+caption name:
+string cert-link:
+boolean $is-hovered: false
+
+-- ftd.row:
+width: hug-content
+spacing.fixed.px: 10
+align-content: center
+
+-- ds.h3: $cert-label.name
+
+-- ftd.image: $assets.files.assets.cert-icon.svg
+if: { !cert-label.is-hovered }
+width.fixed.px: 30
+link: $cert-label.cert-link
+cursor: pointer
+$on-mouse-enter$: $ftd.set-bool($a = $cert-label.is-hovered, v = true)
+
+-- ftd.image: $assets.files.assets.cert-icon-hover.svg
+if: { cert-label.is-hovered }
+width.fixed.px: 30
+link: $cert-label.cert-link
+cursor: pointer
+$on-mouse-leave$: $ftd.set-bool($a = $cert-label.is-hovered, v = false)
+
+-- end: ftd.row
+
+-- end: cert-label
