@@ -1,14 +1,12 @@
 -- import: fastn-community.github.io/certificate as champion
+-- import: fastn-community.github.io/ambassador-certificate as ambassador
 
 -- ds.page: Awarded fastn Certificates
-full-width: true
-logo-width: 100
 
 Below is a list of certificates awarded to all fastn champions and ambassadors.
 
 -- ftd.column:
 width: fill-container
-align-content: center
 
 -- ds.h1: fastn Champions
 
@@ -50,7 +48,11 @@ avatar: $assets.files.assets.avatar.govindaraman.jpg
 
 -- ds.h1: fastn Ambassadors
 
--- ds.h2: No certificates yet
+-- ds.h2: Rutuja Kapate
+
+-- ambassador.certificate-2: Rutuja Kapate
+date: 6th October 2023
+avatar: $assets.files.assets.avatar.rutuja.jpeg
 
 -- end: ftd.column
 
