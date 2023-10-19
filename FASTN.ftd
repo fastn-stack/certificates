@@ -3,16 +3,14 @@
 -- fastn.package: fastn-stack.github.io/fastn-certificate
 favicon: /-/fastn-stack.github.io/fastn-certificate/favicon.ico
 
+-- fastn.dependency: fastn-stack.github.io/fastn-js
 -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography
 -- fastn.dependency: fastn-community.github.io/dark-flame-cs
--- fastn.dependency: fastn-stack.github.io/certificate
--- fastn.dependency: fastn-stack.github.io/ambassador-certificate
 
 -- fastn.auto-import: fastn-stack.github.io/fastn-certificate/FASTN/ds
 -- fastn.auto-import: fastn-stack.github.io/fastn-certificate/assets
--- fastn.auto-import: doc-site
 
 -- fastn.sitemap:
 

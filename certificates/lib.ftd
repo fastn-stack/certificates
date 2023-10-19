@@ -1,0 +1,52 @@
+-- import: fastn-stack.github.io/fastn-js/utils
+
+-- component display-certificate:
+ftd.ui list ui:
+boolean landscape: true
+string certificate-id: some-certificate-id-for-download-purpose
+private boolean $mouse-in: false
+private boolean $on-hover: false
+private boolean $mouse-over: false
+
+-- ftd.row:
+width if { ftd.device == "mobile" }: fill-container
+spacing.fixed.px: 24
+
+-- ftd.column:
+width.fixed.px: 1250
+align-content: right
+
+-- ftd.column:
+width: fill-container
+id: $display-certificate.certificate-id
+
+-- display-certificate.ui.0:
+
+-- end: ftd.column
+
+-- ftd.image:
+src: $assets.files.assets.certificate.fastn-badge-white.svg
+width.fixed.px: 140
+link: https://fastn.com/
+margin-top.px: 8
+open-in-new-tab: true
+
+-- end: ftd.column
+
+-- ftd.column:
+spacing.fixed.px: 12
+align-content: center
+
+-- ftd.image:
+src: $assets.files.assets.certificate.download.svg
+src if { display-certificate.mouse-over }: $assets.files.assets.certificate.download-hover.svg
+width.fixed.px: 30
+$on-click$: $utils.download-as-image(element_id = $display-certificate.certificate-id, filename = certificate.jpg)
+$on-mouse-enter$: $ftd.set-bool($a = $display-certificate.mouse-over, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $display-certificate.mouse-over, v = false)
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+-- end: display-certificate

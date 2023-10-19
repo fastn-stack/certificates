@@ -1,4 +1,4 @@
--- import: fastn-stack.github.io/ambassador-certificate as ambassador
+-- import: fastn-stack.github.io/fastn-certificate/certificates/ambassador
 
 -- ds.page: Ambassador Certification
 
