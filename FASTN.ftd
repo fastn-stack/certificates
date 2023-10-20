@@ -17,5 +17,7 @@ favicon: /-/fastn-stack.github.io/fastn-certificate/favicon.ico
 # All Certifications: index.html
 
 # Champions: /champions/
+  skip: true
 
 # Ambassadors: /ambassadors/
+  skip: true
