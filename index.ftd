@@ -31,6 +31,9 @@ cert-link: champions/shantnu-fartode/
 -- cert-label: Atharva
 cert-link: champions/atharva/
 
+-- cert-label: Ajit Garg
+cert-link: champions/ajit-garg/
+
 -- cert-label: Ayush Soni
 cert-link: champions/ayush-soni/
 
@@ -41,21 +44,27 @@ cert-link: champions/govindaraman/
 
 -- cert-label: Rutuja Kapate
 cert-link: ambassadors/rutuja-kapate/
+ignore-links: true
 
 -- cert-label: Krish Gupta
 cert-link: ambassadors/krish-gupta/
+ignore-links: true
 
 -- cert-label: Ajit garg
 cert-link: ambassadors/ajit-garg/
+ignore-links: true
 
 -- cert-label: Ayush Soni
 cert-link: ambassadors/ayush-soni/
+ignore-links: true
 
 -- cert-label: Nishant
 cert-link: ambassadors/nishant/
+ignore-links: true
 
 -- cert-label: Govindaraman
 cert-link: ambassadors/govindaraman/
+ignore-links: true
 
 -- end: ftd.column
 
@@ -68,6 +77,7 @@ cert-link: ambassadors/govindaraman/
 caption name:
 string cert-link:
 boolean $is-hovered: false
+boolean ignore-links: false
 
 -- ftd.row:
 width: hug-content
@@ -77,14 +87,14 @@ align-content: center
 -- ds.h3: $cert-label.name
 
 -- ftd.image: $assets.files.assets.cert-icon.svg
-if: { !cert-label.is-hovered }
+if: { !cert-label.is-hovered && !cert-label.ignore-links }
 width.fixed.px: 30
 link: $cert-label.cert-link
 cursor: pointer
 $on-mouse-enter$: $ftd.set-bool($a = $cert-label.is-hovered, v = true)
 
 -- ftd.image: $assets.files.assets.cert-icon-hover.svg
-if: { cert-label.is-hovered }
+if: { cert-label.is-hovered && !cert-label.ignore-links }
 width.fixed.px: 30
 link: $cert-label.cert-link
 cursor: pointer
