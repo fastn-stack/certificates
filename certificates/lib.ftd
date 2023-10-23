@@ -43,6 +43,43 @@ open-in-new-tab: true
 
 
 
+-- component social-links:
+
+-- ftd.row:
+width: hug-content
+align-self: end
+padding-horizontal.px: 12
+padding-vertical.px: 10
+border-width.px: 1
+border-color: $inherited.colors.border
+border-radius.px: 48
+color: $inherited.colors.text-strong
+role: $inherited.types.copy-small
+spacing.fixed.px: 8
+margin-left.px if { ftd.device == "desktop"  }: 20
+background.solid: $inherited.colors.background.base
+$on-mouse-enter$: $ftd.set-bool($a = $download-button.mouse-in, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $download-button.mouse-in, v = false)
+
+-- ftd.image:
+src: $assets.files.assets.certificate.discord.svg
+src if { download-button.mouse-in }: $assets.files.assets.certificate.download-hover.svg
+width.fixed.px: 16
+height.fixed.px: 16
+align-self: center
+
+-- ftd.text: Download Certificate
+align-self: center
+color: $inherited.colors.text
+color if { download-button.mouse-in }: white
+
+-- end: ftd.row
+
+-- end: social-links
+
+
+
+
 
 -- component download-button:
 boolean $mouse-in: false
