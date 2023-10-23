@@ -5,9 +5,10 @@
 -- ftd.column:
 width: fill-container
 
--- champion.certificate-2: Atharva
+-- champion.certificate-2: Atharva Pise
 date: 6th October 2023
-/avatar: $assets.files.assets.avatar.atharva.png
+avatar: $assets.files.assets.avatar.atharva-pise.jpeg
+discord-link: https://discord.com/channels/793929082483769345/1164452553707229214
 
 -- end: ftd.column
 
