@@ -120,9 +120,15 @@ string awarded-title: fastn Champion
 ftd.image-src logo: https://fastn.com/-/fastn.com/images/fastn-dark.svg
 optional ftd.image-src avatar:
 string date:
+optional string discord-link:
+optional string github-link:
+optional string linkedin-link:
 
 -- display-certificate:
 certificate-id: cert-2
+discord-link: $certificate-2.discord-link
+github-link: $certificate-2.github-link
+linkedin-link: $certificate-2.linkedin-link
 
 ;; Define certificate UI below --------------------------------
 
