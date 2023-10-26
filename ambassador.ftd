@@ -1,9 +1,14 @@
--- import: fastn-stack.github.io/certificates/certificates/lib
+-- import: fastn-stack.github.io/certificates/lib
 exposing: display-certificate
+
+
+
+
+
 
 -- component certificate:
 caption name:
-string awarded-title: fastn Champion
+string awarded-title: fastn Ambassador
 ftd.image-src logo: https://fastn.com/-/fastn.com/images/fastn-dark.svg
 optional ftd.image-src avatar:
 string date:
@@ -57,7 +62,7 @@ margin-horizontal.px: 20
 text-align: center
 width.fixed.px: 600
 
-has successfully completed the fastn Champion Challenges and is
+has successfully completed the fastn Ambassador Challenges and is
 hereby recognized as a
 
 -- ftd.text: $certificate.awarded-title
@@ -74,7 +79,7 @@ width.fixed.px: 600
 text-align: center
 
 in demonstrating exceptional dedication, perseverance, and achievement
-in overcoming all challenges under the fastn Champion program.
+in overcoming all challenges under the fastn Ambassador program.
 
 -- ftd.row:
 margin-top.px: 60
@@ -116,19 +121,13 @@ label: Founder & CEO
 
 -- component certificate-2:
 caption name:
-string awarded-title: fastn Champion
+string awarded-title: fastn Ambassador
 ftd.image-src logo: https://fastn.com/-/fastn.com/images/fastn-dark.svg
 optional ftd.image-src avatar:
 string date:
-optional string discord-link:
-optional string github-link:
-optional string linkedin-link:
 
 -- display-certificate:
 certificate-id: cert-2
-discord-link: $certificate-2.discord-link
-github-link: $certificate-2.github-link
-linkedin-link: $certificate-2.linkedin-link
 
 ;; Define certificate UI below --------------------------------
 
@@ -177,7 +176,7 @@ margin-horizontal.px: 20
 text-align: center
 width.fixed.px: 600
 
-has successfully completed the fastn Champion Challenges and is
+has successfully completed the fastn Ambassador Challenges and is
 hereby recognized as a
 
 -- ftd.text: $certificate-2.awarded-title
@@ -194,7 +193,7 @@ width.fixed.px: 600
 text-align: center
 
 in demonstrating exceptional dedication, perseverance, and achievement
-in overcoming all challenges under the fastn Champion program.
+in overcoming all challenges under the fastn Ambassador program.
 
 -- ftd.row:
 margin-top.px: 60
@@ -229,7 +228,7 @@ label: Founder & CEO
 
 -- component certificate-3:
 caption name:
-string awarded-title: fastn Champion
+string awarded-title: fastn Ambassador
 ftd.image-src logo: https://fastn.com/-/fastn.com/images/fastn-dark.svg
 optional ftd.image-src avatar:
 string date:
@@ -284,7 +283,7 @@ margin-horizontal.px: 20
 text-align: center
 width.fixed.px: 600
 
-has successfully completed the fastn Champion Challenges and is
+has successfully completed the fastn Ambassador Challenges and is
 hereby recognized as a
 
 -- ftd.text: $certificate-3.awarded-title
@@ -301,7 +300,7 @@ width.fixed.px: 600
 text-align: center
 
 in demonstrating exceptional dedication, perseverance, and achievement
-in overcoming all challenges under the fastn Champion program.
+in overcoming all challenges under the fastn Ambassador program.
 
 -- ftd.row:
 margin-top.px: 60
