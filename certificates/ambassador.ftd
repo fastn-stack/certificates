@@ -1,4 +1,4 @@
--- import: fastn-stack.github.io/fastn-certificate/certificates/lib
+-- import: fastn-stack.github.io/certificates/certificates/lib
 exposing: display-certificate
 
 

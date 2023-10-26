@@ -1,7 +1,7 @@
 -- import: fastn
 
--- fastn.package: fastn-stack.github.io/fastn-certificate
-favicon: /-/fastn-stack.github.io/fastn-certificate/favicon.svg
+-- fastn.package: fastn-stack.github.io/certificates
+favicon: /-/fastn-stack.github.io/certificates/favicon.svg
 
 -- fastn.dependency: fastn-stack.github.io/fastn-js
 -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
@@ -9,8 +9,8 @@ favicon: /-/fastn-stack.github.io/fastn-certificate/favicon.svg
 -- fastn.dependency: fastn-community.github.io/roboto-typography
 -- fastn.dependency: fastn-community.github.io/dark-flame-cs
 
--- fastn.auto-import: fastn-stack.github.io/fastn-certificate/FASTN/ds
--- fastn.auto-import: fastn-stack.github.io/fastn-certificate/assets
+-- fastn.auto-import: fastn-stack.github.io/certificates/FASTN/ds
+-- fastn.auto-import: fastn-stack.github.io/certificates/assets
 
 -- fastn.sitemap:
 
