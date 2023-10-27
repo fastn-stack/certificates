@@ -71,12 +71,13 @@ ignore-links: true
 -- end: ds.page
 
 
-
+-- ftd.color title-hover-color: #ef8434
 
 -- component cert-label:
 caption name:
 string cert-link:
-boolean $is-hovered: false
+boolean $is-title-hovered: false
+boolean $is-icon-hovered: false
 boolean ignore-links: false
 
 -- ftd.row:
@@ -84,21 +85,23 @@ width: hug-content
 spacing.fixed.px: 10
 align-content: center
 
--- ds.h3: $cert-label.name
+-- ftd.text: $cert-label.name
+margin-vertical.em: 0.15
+link if { !cert-label.ignore-links }: $cert-label.cert-link
+role: $inherited.types.heading-small
+color: $inherited.colors.text-strong
+color if { cert-label.is-title-hovered }: $title-hover-color
+$on-mouse-enter$: $ftd.set-bool($a = $cert-label.is-title-hovered, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $cert-label.is-title-hovered, v = false)
 
 -- ftd.image: $assets.files.assets.cert-icon.svg
-if: { !cert-label.is-hovered && !cert-label.ignore-links }
-width.fixed.px: 30
+if: { !cert-label.ignore-links }
+src if { cert-label.is-icon-hovered }: $assets.files.assets.cert-icon-hover.svg
+width.fixed.px: 32
 link: $cert-label.cert-link
 cursor: pointer
-$on-mouse-enter$: $ftd.set-bool($a = $cert-label.is-hovered, v = true)
-
--- ftd.image: $assets.files.assets.cert-icon-hover.svg
-if: { cert-label.is-hovered && !cert-label.ignore-links }
-width.fixed.px: 30
-link: $cert-label.cert-link
-cursor: pointer
-$on-mouse-leave$: $ftd.set-bool($a = $cert-label.is-hovered, v = false)
+$on-mouse-enter$: $ftd.set-bool($a = $cert-label.is-icon-hovered, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $cert-label.is-icon-hovered, v = false)
 
 -- end: ftd.row
 
